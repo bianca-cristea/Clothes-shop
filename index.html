@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" id="blur">
+      <div class="wrapper">
+        <input
+          type="text"
+          id="search-inp"
+          placeholder="Search product name here..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="btn-label">All</button>
+        <button class="btn-label">Topwear</button>
+        <button class="btn-label">Bottomwear</button>
+        <button class="btn-label">Jacket</button>
+        <button class="btn-label">Watch</button>
+      </div>
+
+      <div id="products"></div>
+      <script src="script.js"></script>
+    </div>
+    <div id="popup" class="popup">
+      <img id="popup-image" alt="picture of the selected product" />
+      <i class="fa fa-window-close"></i>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nisi
+        voluptate ad molestias, repellendus et porro velit eveniet accusamus
+        fugit dicta nobis amet, voluptatibus quidem nostrum atque, deserunt
+        tempore temporibus!
+      </p>
+      <ul>
+        <li>material1</li>
+        <li>material2</li>
+        <li>material3</li>
+      </ul>
+    </div>
+  </body>
+</html>
